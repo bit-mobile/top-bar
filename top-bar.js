@@ -47,7 +47,7 @@ var mask = new Mask();
 
 var TopBarView = Backbone.View.extend({
 	// template: _.template(templateHTML),
-	template: __inline("topBar.tmpl"),
+	template: __inline("top-bar.tmpl"),
 	initialize: function(option) {
 		option = option || {};
 		option.right = option.right || {};
