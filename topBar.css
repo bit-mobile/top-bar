@@ -1,0 +1,186 @@
+.topBar{
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-size: .34rem;
+	height: .96rem;
+	line-height: .96rem;
+}
+.topBar h1{
+	font-size: .34rem;
+	font-weight: normal;
+	line-height: inherit;
+	margin: 0 1.5rem;
+}
+.topBar-left,
+.topBar-right{
+	position: absolute;
+	display: inline-block;
+	cursor: pointer;
+	top: 0;
+	width: 1.5rem;
+	height: 100%;
+	line-height: inherit;
+}
+.topBar-left{
+	left: 0;
+	background-size: .64rem;
+	background-position: .14rem 50%;
+}
+.topBar-right{
+	right: 0;
+	padding-right: .34rem;
+	text-align: right;
+	background-size: .64rem;
+	background-position: .61rem 50%;
+}
+.topBar-rightList{
+	position: absolute;
+	display: none;
+	top: 1.22rem;
+	right: .1rem;
+	width: 4rem;
+	font-size: .34rem;
+	color: #484b50;
+	text-align: left;
+	border-radius: .2rem;
+	z-index: 20;
+	background-color: rgba(255,255,255,.8);
+}
+.topBar-rightList li{
+	font-size: 0;
+	border-bottom: 1px solid #dee5ea;
+}
+.topBar-rightList li:last-child{
+	border-bottom: none;
+}
+.topBar-rightList .icon{
+	width: .64rem;
+	height: .64rem;
+	margin-left: .25rem;
+	margin-right: .21rem;
+	vertical-align: middle;
+}
+.topBar-rightList .item-text{
+	height: 1.1rem;
+	line-height: 1.1rem;
+	font-size: .34rem;
+}
+.topBar-mask{
+	display:none;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,.3);
+	z-index: 10;
+}
+
+
+.ios .topBar{
+	position: relative;
+	text-align: center;
+	background-color: #3d9ddb;
+	color: #fff;
+	font-size: .36rem;
+	height: .88rem;
+	line-height: .88rem;
+}
+.ios .topBar h1{
+	font-size: .36rem;
+	font-weight: normal;
+	line-height: inherit;
+	margin: 0 1.5rem;
+}
+.ios .topBar-left,
+.ios .topBar-right{
+	position: absolute;
+	display: inline-block;
+	cursor: pointer;
+	top: 0;
+	width: 1.5rem;
+	height: 100%;
+	line-height: inherit;
+	background-size: .60rem;
+}
+.ios .topBar-left{
+	left: 0;
+	background-position: .12rem 50%;
+}
+.ios .topBar-right{
+	right: 0;
+	padding-right: .22rem;
+	text-align: right;
+	background-position: .61rem 50%;
+}
+.ios .topBar-rightList{
+	position: absolute;
+	display: none;
+	top: 1.22rem;
+	right: .1rem;
+	width: 3.56rem;
+	font-size: .32rem;
+	color: #484b50;
+	text-align: left;
+	border-radius: .2rem;
+	z-index: 20;
+	background-color: rgba(255,255,255,.8);
+}
+.ios .topBar-rightList li{
+	font-size: 0;
+	border-bottom: 1px solid #dee5ea;
+}
+.ios .topBar-rightList li:last-child{
+	border-bottom: none;
+}
+.ios .topBar-rightList .icon{
+	width: .6rem;
+	height: .6rem;
+	margin-left: .22rem;
+	margin-right: .14rem;
+	vertical-align: middle;
+}
+.ios .topBar-rightList .item-text{
+	height: .98rem;
+	line-height: .98rem;
+	font-size: .32rem;
+}
+.ios .topBar-mask{
+	display:none;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,.3);
+	z-index: 10;
+}
+
+.icon-arrow-left{
+	background-image: url(img/icon-arrow-left.png);
+}
+.icon-pencil{
+	background-image: url(img/icon-pencil.png);
+}
+.icon-add{
+	background-image: url(img/icon-add.png);
+}
+.icon-ellipsis{
+	background-image: url(img/icon-ellipsis.png);
+}
+.icon-reply{
+	background-image: url(img/icon-reply.png);
+}
+.icon-forward{
+	background-image: url(img/icon-forward.png);
+}
+.icon-replyAll{
+	background-image: url(img/icon-replyAll.png);
+}
+.icon-remove{
+	background-image: url(img/icon-remove.png);
+}
+
+
+

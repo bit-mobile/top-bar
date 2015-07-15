@@ -1,0 +1,21 @@
+<span class='JS-action topBar-left icon icon-arrow-left' data-action='back'></span>
+<h1 class='JS-title'><%= title %></h1>
+<span class='JS-action topBar-right icon <%= right.icon %>' data-action='<%= right.action %>'>
+	<% if (right.text) { %>
+		<%= right.text %>
+	<% } %>
+	<% if ( right.data && right.data.length > 0 ) { %>
+		<div class='topBar-rightList JS-rightList'>
+			<ul>
+			<% for(var i = 0, len = right.data.length; i < len; i++ ) { %>
+				<li data-action='<%= right.data[i].action %>'>
+					<span class='icon <%= right.data[i].icon %>'></span>
+					<span class='item-text'><%= right.data[i].text %></span>
+				</li>
+			<% } %>
+			</ul>
+		</div>
+	<% } %>
+</span>
+
+
